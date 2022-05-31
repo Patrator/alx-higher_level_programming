@@ -1,6 +1,6 @@
 #!/usr/bin/python3
 def fizzbuzz():
-    var = []    #list to save memory allocation
+    var = []    # list to save memory allocation
     for n in range(1, 101):
         if n % 3 == 0 and n % 5 == 0:
             var.append("FizzBuzz ")
