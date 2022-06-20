@@ -1,5 +1,14 @@
 #!/usr/bin/python3
-from sys import stderr
+def safe_print_integer_err(value):
+    """
+    Function that prints an integer
+    Args:
+        value:  any type(integers, strings, etc)
+    Return:
+        True if value has been correctly printed
+        else false
+    """
+    from sys import stderr
     try:
         print("{:d}".format(value))
         return True
