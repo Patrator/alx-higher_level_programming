@@ -3,8 +3,8 @@
     0-rectangle Module
 """
 
-class Rectangle:
 
+class Rectangle:
     """
         Rectangle class
     """
